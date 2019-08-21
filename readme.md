@@ -8,8 +8,9 @@ The user can use this Budget Web Application ("app") to record the (1) income(s)
 - HTML
 - CSS
 - JavaScript
-
-
+    - Software Design Principle - DRY: https://dzone.com/articles/software-design-principles-dry-and-kiss
+    - Event reference: https://developer.mozilla.org/en-US/docs/Web/Events
+    - Identify keycode for event listener: https://keycode.info/
 
 ## To-Do List
 This project is broken down into three phases, where different features/functions will be built in each phase.
