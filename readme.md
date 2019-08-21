@@ -12,12 +12,24 @@ The user can use this Budget Web Application ("app") to record the (1) income(s)
 
 
 ## To-Do List
-- Add event handler
-- Get input values
-- Add the new item to the data structure
+This project is broken down into three phases, where different features/functions will be built in each phase.
+1. Phase 1:
+- Get user input values
+- Add the new item to the data structure (Note: the data won't be stored in a database but locally)
 - Add the new item to the UI
 - Calculate the budget
 - Update the UI
+2. Phase 2:
+- Delete the item from the data structure
+- Delete the item from the UI
+- Re-calculate the budget
+- Update the UI
+3. Phase 3:
+- Calculate percentages
+- Update percentages in UI
+- Display the current month and year
+- Number formatting
+- Improve input fields in terms of user experience
 
 
 ## Modules
@@ -28,14 +40,8 @@ But why do we use modules?
 2. Namespacing: In JavaScript, variables outside the scope of a top-level function are global (meaning, everyone can access them). Because of this, it’s common to have “namespace pollution”, where completely unrelated code shares global variables. We can encapsulate private variables and methods in a closure scope by using Modules.
 3. Reusability: A module can be reused over and over again.
 
-### UI Module
-- Get input values
-- Add the new item to the UI
-- Calculate the budge
+The three modules that will be used are:
+- UI Module
+- Data Module
+- Controller Module
 
-### Data Module
-- Add the new item to the data structure
-- Calculate the budget
-
-### Controller Module
-- Add event handler
